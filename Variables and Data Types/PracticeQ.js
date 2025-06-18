@@ -1,4 +1,4 @@
-//Create and object for a product on amezon
+//Q1) Create and object for a product on amezon
 const product = {
     title: "Ballpen",
     rating: 4,
@@ -9,7 +9,7 @@ const product = {
 console.log(product);
 
 
-//Create an object for an profile on Linkedin
+//Q2) Create an object for an profile on Linkedin
 const Profile = {
     userName : "shradhakhapra",
     posts : 195,
