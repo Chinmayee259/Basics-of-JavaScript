@@ -47,3 +47,4 @@ console.log(Student["age"]);    //31
 //Different data types
 //Primary data types:  Number, Boolean, String, BigInt, Undefined, Null, Symbol
 //typeOf variable
+//Non-primitive data types: objects(Collection of values)
