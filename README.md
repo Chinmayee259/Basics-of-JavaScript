@@ -7,3 +7,6 @@ Basics of JavaScript
 6) Arrays
 7) Functions and Methods
 8) DOM - Document Object Model
+9) Events
+10) Tic-Tac-Toe Game
+11) Stone, Paper, Scissor Game
