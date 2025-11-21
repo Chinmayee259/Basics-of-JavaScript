@@ -10,3 +10,5 @@ Basics of JavaScript
 9) Events
 10) Tic-Tac-Toe Game
 11) Stone, Paper, Scissor Game
+12) Classes & Objects
+13) Error handling
