@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 div{
     height: 100px;
     width: 100px;
     background-color: dodgerblue;
     color: white;
     border: 1px solid black;
+=======
+div{
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+>>>>>>> d1ef49bf3e0fdf241b80e713dfe446d77e56191b
 }
