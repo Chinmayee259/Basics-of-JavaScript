@@ -1,0 +1,14 @@
+p{
+    background-color: palevioletred;
+    color: black;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.constent{
+    color: red;
+    background-color: black;
+}
+.newClass{
+    background-color: green;
+}

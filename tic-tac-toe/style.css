@@ -1,0 +1,76 @@
+/* universal reset
+* is the universal selector → it applies to all elements
+It helps you start with a clean, consistent layout across different browsers. */
+*{
+    margin: 0;  /*removes the default margins browsers add to elements.*/
+    padding: 0; /*removes default padding.*/
+}
+
+body{
+    background-color: #bde0fe;
+    text-align: center;
+}
+
+.container { 
+    height: 70vh; /* 1vh = 1% of the height of the browser window (viewport). 70vh = 70% of the screen’s height.*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.game {
+    height: 60vmin; /* vmin = 1% of the smaller dimension of the viewport (either width or height). 
+    vmax = 1% of the larger dimension of the viewport. (i.e. height of game is 60% of the height of container) */
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0,0.3);
+    font-size: 8vmin;
+    background-color: #fdf0d5;
+    color: black;
+}
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #ffc8dd;
+    border-radius: 1rem;
+    border: none;
+}
+
+#Newbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #ffc8dd;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg{
+    font-size: 5vmin;
+    color: black;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide{
+    display: none;
+}

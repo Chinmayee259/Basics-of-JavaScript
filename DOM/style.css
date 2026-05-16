@@ -1,0 +1,20 @@
+h1{
+    color: red;
+}
+
+button{
+    color: black;
+}
+
+body{
+    background-color: bisque;
+}
+
+div{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+}
